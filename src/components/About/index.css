@@ -1,0 +1,35 @@
+.d{
+    display:flex;
+    width:100vw;
+    padding:30px;
+}
+.a{
+    width:50vw;
+    display:flex;
+    
+}
+.rl{
+    width:20vw; 
+}
+
+.op{
+    display:flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .rkp{
+        display:none;
+        
+    }
+    .rl{
+        width:80vw;
+    }
+    .a{
+        width:100%;
+    }
+    .rl h1{
+        font-size:20px;
+    }
+    
+  }

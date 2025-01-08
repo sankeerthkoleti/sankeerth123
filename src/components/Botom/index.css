@@ -1,0 +1,27 @@
+.back{
+    background-color:#030303;
+    padding:30px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+.logocon{
+    display:flex;
+    margin-top:20px;
+}
+.second{
+    display:flex;
+    flex-direction: column;
+    
+}
+a{
+    margin-bottom:17px;
+}
+.container1{
+    width:40vw;
+}
+@media screen and (max-width:768px) {
+    .container1 p{
+        font-size:10px;
+    }
+}
